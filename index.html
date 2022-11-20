@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>quote-attribution-annotation</title>
+</head>
+<body>
+    <h1>Quote Attribution Annotation</h1>
+    <div>
+        <h3>context</h3>
+        <textarea name="" id="context-input" cols="30" rows="10"></textarea>
+        <input id="context-quote" type="button" value="quote">
+        <input id="context-mention" type="button" value="mention">
+        <div id="context-length">context length: 0</div>
+    </div>
+    <div>
+        <h3>quote</h3>
+        <input id="quote-input" type="text" placeholder="quote">
+    </div>
+    <div>
+        <h3>mention</h3>
+        <input id="mention-input" type="text" placeholder="mention">
+        <div>
+            <span>start</span>
+            <input id="mention-start" type="text" placeholder="mention start">
+        </div>
+        <span>first</span>
+        <input type="checkbox" name="mention" id="mention-first">
+
+        <span>env</span>
+        <input type="checkbox" name="mention" id="mention-env">
+    </div>
+
+    <div>
+        <h3>gender</h3>
+        <div>
+            <input type="radio" name="gender" id="gender_unknown" value="unknown" checked>
+            <label for="gender_unknown">unknown</label>
+            <input type="radio" name="gender" id="gender_man" value="man">
+            <label for="gender_man">man</label>
+            <input type="radio" name="gender" id="gender_woman" value="woman">
+            <label for="gender_woman">woman</label>
+        </div>
+    </div>
+    <div>
+        <h3>age</h3>
+        <div>
+            <input type="radio" name="age" id="age_unknown" value="unknown" checked>
+            <label for="age_unknown">unknown</label>
+            <input type="radio" name="age" id="age_child" value="child">
+            <label for="age_child">child</label>
+            <input type="radio" name="age" id="age_young" value="young">
+            <label for="age_young">young</label>
+            <input type="radio" name="age" id="age_adult" value="adult">
+            <label for="age_adult">adult</label>
+            <input type="radio" name="age" id="age_middle" value="middle">
+            <label for="age_middle">middle</label>
+            <input type="radio" name="age" id="age_old" value="old">
+            <label for="age_old">old</label>
+        </div>
+    </div>
+    <!-- <div>
+        <h3>sentiment</h3>
+        <div>
+            <input type="radio" name="sentiment" id="sentiment_neutral" value="neutral" checked>
+            <label for="sentiment_neutral">neutral</label>
+            <input type="radio" name="sentiment" id="sentiment_happiness" value="happiness">
+            <label for="sentiment_happiness">happiness</label>
+            <input type="radio" name="sentiment" id="sentiment_sadness" value="sadness">
+            <label for="sentiment_sadness">sadness</label>
+            <input type="radio" name="sentiment" id="sentiment_anger" value="anger">
+            <label for="sentiment_anger">anger</label>
+            <input type="radio" name="sentiment" id="sentiment_fear" value="fear">
+            <label for="sentiment_fear">fear</label>
+            <input type="radio" name="sentiment" id="sentiment_surprise" value="surprise">
+            <label for="sentiment_surprise">surprise</label>
+            <input type="radio" name="sentiment" id="sentiment_disgust" value="disgust">
+            <label for="sentiment_disgust">disgust</label>
+        </div>
+    </div> -->
+
+       
+    <div class="submit-div">
+        <input id="submit" type="button" value="submit">
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

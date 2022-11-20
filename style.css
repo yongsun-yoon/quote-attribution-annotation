@@ -1,0 +1,27 @@
+#context-input {
+    width: 800px;
+    height: 200px;
+}
+
+#context-body {
+    width: 800px;
+    height: 200px;
+}
+
+#quote-input {
+    width: 800px;
+    height: 50px;
+}
+
+#mention-input {
+    width: 800px;
+    height: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.submit-div {
+    margin-top: 30px;
+}
